@@ -1,9 +1,9 @@
 from biblioteca import *
 
 def main():
-    titulos = [""] * 20
-    ejemplares = [0] * 20
-    cantidad_libros = 0
+    titulos = ["CENICIENTA", "CREPUSCULO", "ROMEO Y JULIETA"] + [""] * 17
+    ejemplares = [3, 4, 7] + [0] * 17
+    cantidad_libros = 3
     opcion = 0
 
     while opcion != 7:

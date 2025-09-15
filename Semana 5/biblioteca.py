@@ -16,7 +16,7 @@ def mostrar_catalogo (titulos, ejemplares, cantidad_libros):
         print ("El catálogo está vacío.")
         return
     for i in range (cantidad_libros):
-        print (titulos[i], "→", ejemplares[i], "copias")
+        print (titulos[i], ":", ejemplares[i], "copias")
 
 def consultar_disponibilidad (titulos, ejemplares, cantidad_libros):
     titulo = input("Ingrese el título a consultar: ")
@@ -47,7 +47,7 @@ def agregar_titulo (titulos, ejemplares, cantidad_libros):
     return cantidad_libros
 
 def actualizar_ejemplares (titulos, ejemplares, cantidad_libros):
-    titulo = input("Ingrese el título a actualizar: ")
+    titulo = input("Ingrse el título a actualizar: ")
     for i in range(cantidad_libros):
         if titulos [i] == titulo:
             print("Actualmente tiene", ejemplares[i], "copias")
