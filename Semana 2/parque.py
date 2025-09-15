@@ -51,7 +51,9 @@ def mostrar_resumen(nombre, edad, atraccion, precio, mensaje):
     if precio > 0:
         print("Precio: $", precio)
     else:
-        print(mensaje)       
+        print(mensaje)
+        
+               
 
         
 
